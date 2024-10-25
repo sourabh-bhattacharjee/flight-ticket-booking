@@ -1,0 +1,146 @@
+body{
+    font-family:  '__Inter_821f06', Inter, sans-serif !important;
+}
+.header{
+    height: 64px;
+    width: 1440px;
+    margin-left: -8px;
+    margin-top: -8px;
+    /* border-bottom: 1px solid #dadce0; */
+    
+}
+.headerIcon{
+    width: 191px;
+    cursor: pointer;
+}
+.centre{
+    max-width: 1264px;
+    margin: auto;
+    padding: 16px;
+}
+.auth{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding: 6px 4px 8px 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(15, 107, 255);
+    height: 40px;
+    min-width: 128px;
+}
+.divLogin{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.login{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.main{
+    background-color: #FFF ;
+}
+.content{
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.content .rowLeft{
+    width: 16.66%;
+    margin-right: 48px;
+    padding-left: 8px;
+    padding-top:16px;
+}
+.flightSec{
+    cursor: pointer;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    border-radius: 6px;
+}
+.hoverDiv :hover{
+    background-color:rgb(55, 76, 95);
+    color: rgb(15, 107, 255);
+}
+.hoverDiv :checked{
+    background-color: aqua;
+}
+.leftIcon{
+    width: 19px;
+    height: 19px;
+    fill: rgb(51, 102, 204);
+}
+.leftText{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    cursor: auto;
+    font-family: sans-serif !important;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+.rowRight{
+    width: 83.34%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.rowRight .rightStart{
+    display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 28px;
+}
+
+.mainHeadtwo h2{
+    font-size: 500;
+    margin-left: 4px;
+    font-size: 16px;
+    color: #1a1a1a;
+    /* font-family: sans-serif !important; */
+}
+.mainHeadOne{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+.gradient-div{
+    border-radius: 16px 16px 16px 0px;
+    background: linear-gradient(to left, #FFE6DD 0%, #FFF 100%);
+    flex-basis: 70.83333%;
+    max-width: 70.83333%;
+}
+.gra-start{
+    margin-left: 40px;
+    padding-top:16px
+}
+.main-booking{
+    position: relative;
+    border-color: #e6e6e6;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 16px;
+}
+.sec-main-booking{
+    width: 100%;
+    padding-top: 32px !important;
+    padding: 40px;
+}
+.firstLine{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
