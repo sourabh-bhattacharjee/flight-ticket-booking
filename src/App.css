@@ -76,8 +76,8 @@ body{
     background-color: aqua;
 }
 .leftIcon{
-    width: 19px;
-    height: 19px;
+    width: 24px;
+    height: 24px;
     fill: rgb(51, 102, 204);
 }
 .leftText{
@@ -143,4 +143,52 @@ body{
     display: flex;
     align-items: center;
     width: 100%;
+}
+.frst-arr{
+    width: 24px;
+    top: 6px;
+    position: relative;
+}
+.down-arr{
+    width: 12px;
+    /* rotate: 180deg;
+    transition: rotate 0.5s ease 0s; */
+}
+.one-way{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+}
+.fr-sec{
+    width: 180px;
+    cursor: pointer;
+}
+.box-adj{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: rgba(26, 26, 26, 0.08) 0px 4px 16px 0px;
+    position: absolute;
+    z-index: 50;
+    width: 180px;
+    border-radius: 4px;
+}
+.li-item{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: auto;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-weight: 500
+}
+
+.li-item:hover{
+    background-color: #f3f3f3;
+    border-radius: 6px;
+}
+.tickIcon{
+    top: 7px;
+    position: relative;
 }
